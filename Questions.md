@@ -32,13 +32,13 @@ R: To **define who is responsible** for specific files or folders in a repositor
 R: By setting up a **Branch Protection Rule** for `main` and checking the box **"Require status checks to pass before merging"**.
 
 **Q9. What steps can you take to ensure changes to main require approval from at least two reviewers?**
-R: Wrong Answer
+R: By setting up a **Branch Protection Rule** for `main` and checking the box **"Require a pull request before merging"**, then check **"Require approvals"** and set the number to **2**.
 
 **Q10. What is CodeQL, and how is it used in GitHub?**
-R: Wrong Answer
+R: It is an **analysis engine** used by GitHub Advanced Security to scan your code for vulnerabilities and security flaws automatically during your workflows.
 
 **Q11. What is a fork in GitHub, and when should you use one?**
-R: Wrong Answer
+R: A **copy of another user's repository** stored in your own account. Use it when you want to propose changes to someone else's open-source project or use their code as a starting point.
 
 **Q12. What is a pull request in GitHub?**
 R: Wrong Answer
