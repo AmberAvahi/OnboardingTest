@@ -41,10 +41,12 @@ R: It is an **analysis engine** used by GitHub Advanced Security to scan your co
 R: A **copy of another user's repository** stored in your own account. Use it when you want to propose changes to someone else's open-source project or use their code as a starting point.
 
 **Q12. What is a pull request in GitHub?**
-R: Wrong Answer
+R: A **proposal to merge changes** from one branch into another. It lets you show your code, discuss modifications, and run automated tests before the code is merged.
 
 **Q13. When creating a pull request from feature-a into main, which branch is the base and which is the compare?**
-R: Wrong Answer
+R: 
+- **Base:** `main` (the target branch receiving the changes).
+- **Compare:** `feature-a` (the branch with your new code).
 
 **Q14. What are draft pull requests, and when should they be used?**
-R: Wrong Answer
+R: A type of pull request that **cannot be merged** until changed to "ready for review". Use them when you want to share a work-in-progress to get early feedback or keep track of your task without triggering automatic review requests.
