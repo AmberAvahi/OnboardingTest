@@ -20,13 +20,16 @@ R:
 - **Collaborator:** Read and write access to push changes.
 
 **Q6. What repository visibility options does GitHub provide, and when would you use each?**
-R: Wrong Answer
+R: 
+- **Public:** Anyone can see it.
+- **Private:** Only you and your collaborators can see it.
+- **Internal:** Only members of your enterprise organization can see it.
 
 **Q7. What is the purpose of a CODEOWNERS file?**
-R: Wrong Answer
+R: To **define who is responsible** for specific files or folders in a repository. GitHub will automatically request reviews from them when a PR changes those files.
 
 **Q8. How can you enforce that status checks must pass before merging into the main branch?**
-R: Wrong Answer
+R: By setting up a **Branch Protection Rule** for `main` and checking the box **"Require status checks to pass before merging"**.
 
 **Q9. What steps can you take to ensure changes to main require approval from at least two reviewers?**
 R: Wrong Answer
